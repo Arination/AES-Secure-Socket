@@ -28,7 +28,7 @@ This project was created keeping in mind the deficiencies in the basic tradition
 
 ### Setup AES using Crypto++ library.
 
-Note :- **Visual Studio** is used for the development of this application, so make sure you have it installed already. I would suggest you to use community edition.
+Note :- **Visual Studio** is used for the development of this application, so make sure you have it installed already with C++ development environment package. I would suggest you to use community edition.
 
 
 1. Clone the Crypto++ library from the link below or just search Cyptoo++ github.(you can also download it by searching it on Crypto++ site, I preferred cloning it.)
@@ -69,18 +69,38 @@ Note :- **Visual Studio** is used for the development of this application, so ma
 [AES Code](https://www.cryptopp.com/wiki/Advanced_Encryption_Standard)
 
 ## Now Let's Dive into SECURE SOCKET implementation.
+
+### Server Side:
 1. Create a new project and an empty C++ project, name it **Server side**.
-2. Add a C++ source file and copy the code from the repository. ([click here](
-``` sudo git clone https://github.com/yuvrajmalhi/Ultra-Fast-Port-Scanner.git```           
-```cd Ultra-Fast-Port-Scanner/```                   
-```gcc scanner.c -o scanner```           
-```ls```  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; - &emsp;  *Confirm that ther 'scanner' executable and file are present*        
+2. Add a C++ source file and copy the code from the repository ([click here](https://github.com/Arination/AES-Secure-Socket/blob/main/server_Source.cpp)).
+3. Change the solution configuration to **Release**, **x64**.
+4. Save the Solution.
 
-Here's how:   
+### Client Side:
+1. Create a new project and an empty C++ project, name it **Client side**.
+2. Add a C++ source file and copy the code from the repository ([click here](https://github.com/Arination/AES-Secure-Socket/blob/main/client_Source.cpp)).
+3. Change the solution configuration to **Release**, **x64**.
+ 
+Caution this is the most important part for Client Side.
 
+4. Follow the Same steps as followed for basic AES setup above.
+5. Save the Solution.
 
+## Now to test it!
+1. Run the Server Side code first by clicking the **Local Windows Debugger**.
+2. Then run the Client side code.
+3. The terminal windows will appear showing the connection successful message.
+4. Now just enter the name in the client side terminal and Viola! you can send messages and see if they are encrypted or not.
 
+## Multiple Clients:
+1. This requires nothing special, just create multiple client projects as you have done for single client as it is.
+2. Run the code once the server is running, enter the names and Bingo! you are all set up.
+3. Clients can leave the chat if the enter **"quit"** in chat.
 
+# Pros Of This Implementation.
+1. Generates random keys and IV everytime and for every message, even if the same message was sent multiple times. Making the cipher text unique everytime, un-interceptable and un-decodable.
+2. Multiple clients can connect and chat without any restrictions.
+   
 Do share if you liked my work. Thanks!
 
 :smile:

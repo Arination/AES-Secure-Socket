@@ -31,8 +31,8 @@ This project was created keeping in mind the deficiencies in the basic tradition
 Note :- **Visual Studio** is used for the development of this application, so make sure you have it installed already with C++ development environment package. I would suggest you to use community edition.
 
 
-1. Clone the Crypto++ library from the link below or just search Cyptoo++ github.(you can also download it by searching it on Crypto++ site, I preferred cloning it.)
-2. Also download (clone) the CryptoPP PEM pack.
+1. Clone the [Crypto++ Repo.](https://github.com/weidai11/cryptopp) or just search Cyptoo++ github.(you can also download it by searching it on Crypto++ site, I preferred cloning it.)
+2. Also download (clone) the [Cryptopp PEM.](https://github.com/noloader/cryptopp-pem) pack.
 
    Make sure to note the location of the cloned repositories or downloads.
 
@@ -56,11 +56,6 @@ Note :- **Visual Studio** is used for the development of this application, so ma
 8. Will take some time to complete and upon completion it will show Build success message in the Output area.
 
 (I already did this process, so it shows me successfully Updated message.)
-
-[Crypto++ Repo.](https://github.com/weidai11/cryptopp)
-
-[Crypto PEM.](https://github.com/noloader/cryptopp-pem)
-
 
 
 ### Setting Up and Compiling the C++ AES implementation:

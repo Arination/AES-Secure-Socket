@@ -46,7 +46,13 @@ Note :- **Visual Studio** is used for the development of this application, so ma
 ![VID_20240610212527](https://github.com/Arination/AES-Secure-Socket/assets/87356283/4efde533-66b9-4769-8d76-82722c06ffb2)
 
 6. Change the solution configuration to **Release**, **x64**.
+
+![Record_2024-06-10-21-08-32](https://github.com/Arination/AES-Secure-Socket/assets/87356283/80d31cc1-ea47-41a6-a067-1e341f4d9474)
+  
 7. Now right click on the cryptlib solution and click build.
+
+![Record_2024-06-10-21-08-59](https://github.com/Arination/AES-Secure-Socket/assets/87356283/3bc791ab-2663-4757-81ac-1618e1f39983)
+   
 8. Will take some time to complete and upon completion it will show Build success message in the Output area.
 
 (I already did this process, so it shows me successfully Updated message.)

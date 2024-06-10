@@ -26,7 +26,7 @@ This implementation facilitates multiple client connections through the use of t
 This project was created keeping in mind the deficiencies in the basic traditional socket creation. Hence this secure (encrypted) tunneled connection is _safe, easy to use, and non interceptable._
 
 
-### Setup AES using Crypto++ library.
+## Setup AES using Crypto++ library.
 
 Note :- **Visual Studio** is used for the development of this application, so make sure you have it installed already with C++ development environment package. I would suggest you to use community edition.
 
@@ -55,9 +55,14 @@ Note :- **Visual Studio** is used for the development of this application, so ma
 (I already did this process, so it shows me successfully Updated message.)
 
 ![Record_2024-06-10-21-08-59](https://github.com/Arination/AES-Secure-Socket/assets/87356283/3bc791ab-2663-4757-81ac-1618e1f39983)
+
+9. You can close it after success.
    
-### Setting Up and Compiling the C++ AES implementation:
+## Setting Up and Compiling the C++ AES implementation:
 1. Create a new blank project -> Empty C++ project in Visual Studio.
+
+![VID_20240610224938](https://github.com/Arination/AES-Secure-Socket/assets/87356283/630dcbd2-935a-47af-af8f-4960c77b8d3f)
+
 2. Add C++ source file in the Source files section.
 3. Get the code from the CryptoPP site (link is below) or from the CPP file in this repository. ([Cryptopp.cpp](https://github.com/Arination/AES-Secure-Socket/blob/main/Cryptopp.cpp)).
 4. Change the solution configuration to **Release**, **x64**.
@@ -65,25 +70,39 @@ Note :- **Visual Studio** is used for the development of this application, so ma
 6. Open the project properties as shown.
 7. Check that the configuration is set to **Active(Release)** and Platform **Active(x64)**.
 8. Navigate to C/C++ option in left panel, expand it and click General properties. Click **Additional Include Directories** and edit it with the path to **cryptopp** folder as shown.
-9. Click OK. Then go to Code Generation and change **Runtime Library** to **Multi-threaded (/MT).**
+9. Click OK. Then go to **Code Generation** and change **Runtime Library** to **Multi-threaded (/MT).**
+
+![Record_2024-06-10-22-43-58](https://github.com/Arination/AES-Secure-Socket/assets/87356283/526598b9-761c-47d8-85c1-6d953979cc35)
+
 10. Once this is done, collapse the C/C++ property and expand **Linker** properties.
 11. Click General properties. Click **Additional Library Directories** and edit it with the path to **cryptopp\x64\Output\Release** folder as shown. Click Ok
+
+![Record_2024-06-10-22-44-28](https://github.com/Arination/AES-Secure-Socket/assets/87356283/aedaef3c-952e-4f14-b43f-19a4ac2c995c)
+
 12. Also change the **Enable Incremental Linking** to **No (/INCREMENTAL:NO)**.
+
+![VID_20240610225707](https://github.com/Arination/AES-Secure-Socket/assets/87356283/73901d51-88fb-4f41-863c-9de567aeba27)
+
 13. Go to the **Input** properties and Click **Additional Dependencies**, edit it and write **cryptlib.lib** and click Ok.
+
+![Record_2024-06-10-22-45-40](https://github.com/Arination/AES-Secure-Socket/assets/87356283/cac1fb78-1568-4cb8-a1c6-59396f8a4cd2)
+
 14. Once all this is done Click Apply and Ok.
-15. Woah! Everything will be resolved (hope you followed the steps correctly :)).
+15. Woah! Everything will be resolved. Save the file and run it by clicking **Local Windows Debugger** option.
+
+ (hope you followed the steps correctly :)).
 
 [AES Code](https://www.cryptopp.com/wiki/Advanced_Encryption_Standard)
 
 ## Now Let's Dive into SECURE SOCKET implementation.
 
-### Server Side:
+## Server Side:
 1. Create a new project and an empty C++ project, name it **Server side**.
 2. Add a C++ source file and copy the code from the repository ([click here](https://github.com/Arination/AES-Secure-Socket/blob/main/server_Source.cpp)).
 3. Change the solution configuration to **Release**, **x64**.
 4. Save the Solution.
 
-### Client Side:
+## Client Side:
 1. Create a new project and an empty C++ project, name it **Client side**.
 2. Add a C++ source file and copy the code from the repository ([click here](https://github.com/Arination/AES-Secure-Socket/blob/main/client_Source.cpp)).
 3. Change the solution configuration to **Release**, **x64**.

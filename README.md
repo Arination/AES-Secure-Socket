@@ -39,10 +39,11 @@ Note :- **Visual Studio** is used for the development of this application, so ma
 3. Now, copy and paste the contents of the CryptoPP PEM folder in the Cryptopp folder. (skip the files if there's a collision.)
 4. Search for **cryptlib.vcxproj** in the Cryptopp folder and open it with Visual Studio.
    ![Screenshot (33)](https://github.com/Arination/AES-Secure-Socket/assets/87356283/e4136fae-7092-4a2b-a0e4-3bf70ed75e60)
-5. Click on the cyptlib to view the dependencies and right click to add the header files (existing), source files (existing) as shown.
-6. Change the solution configuration to **Release**, **x64**.
-7. Now right click on the cryptlib solution and click build.
-8. Will take some time to complete and upon completion it will show Build success message in the Output area.
+5. Click on the cyptlib to view the dependencies and right click to add the header files (existing .h files), source files (existing .cpp files) as shown.
+![clip1](https://github.com/Arination/AES-Secure-Socket/assets/87356283/15ced471-648a-4bb2-a460-8c633456d8b7)
+7. Change the solution configuration to **Release**, **x64**.
+8. Now right click on the cryptlib solution and click build.
+9. Will take some time to complete and upon completion it will show Build success message in the Output area.
 
 (I already did this process, so it shows me successfully Updated message.)
 

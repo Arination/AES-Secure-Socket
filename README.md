@@ -30,6 +30,7 @@ This project was created keeping in mind the deficiencies in the basic tradition
 
 Note :- **Visual Studio** is used for the development of this application, so make sure you have it installed already with C++ development environment package. I would suggest you to use community edition.
 
+DISCLAIMER: There are visuals included in the Readme to show the steps to follow. They might take sometime to load depending on your connectivity!
 
 1. Clone the [Crypto++ Repo.](https://github.com/weidai11/cryptopp) or just search Cyptoo++ github.(you can also download it by searching it on Crypto++ site, I preferred cloning it.)
 2. Also download (clone) the [Cryptopp PEM.](https://github.com/noloader/cryptopp-pem) pack.

@@ -64,12 +64,30 @@ Note :- **Visual Studio** is used for the development of this application, so ma
 ![VID_20240610224938](https://github.com/Arination/AES-Secure-Socket/assets/87356283/630dcbd2-935a-47af-af8f-4960c77b8d3f)
 
 2. Add C++ source file in the Source files section.
+
+![VID_20240610225057](https://github.com/Arination/AES-Secure-Socket/assets/87356283/d814febd-746d-4c3a-8778-fe5d216a4164)
+
 3. Get the code from the CryptoPP site (link is below) or from the CPP file in this repository. ([Cryptopp.cpp](https://github.com/Arination/AES-Secure-Socket/blob/main/Cryptopp.cpp)).
+
+![VID_20240610225232 (2)](https://github.com/Arination/AES-Secure-Socket/assets/87356283/ec82302b-8b72-41c0-99e5-1a2ca9db8c6c)
+
 4. Change the solution configuration to **Release**, **x64**.
+
+![VID_20240610225329](https://github.com/Arination/AES-Secure-Socket/assets/87356283/826de128-50dc-4919-990c-ecea7ac88ae7)
+
 5. Paste the code and you will find that the IDE is unable to resolve path for the incuded header files. Don't worry let's add their path.
 6. Open the project properties as shown.
+
+![Record_2024-06-10-22-42-13](https://github.com/Arination/AES-Secure-Socket/assets/87356283/53badf9c-95c8-4339-8615-e1a31700dd12)
+
 7. Check that the configuration is set to **Active(Release)** and Platform **Active(x64)**.
+
+![Record_2024-06-10-22-42-56](https://github.com/Arination/AES-Secure-Socket/assets/87356283/94811290-1d1c-412e-b1f7-da35d784bc5d)
+
 8. Navigate to C/C++ option in left panel, expand it and click General properties. Click **Additional Include Directories** and edit it with the path to **cryptopp** folder as shown.
+
+![Record_2024-06-10-22-43-10](https://github.com/Arination/AES-Secure-Socket/assets/87356283/936e75f6-cb1e-486d-ac7f-5a02fba0be0a)
+
 9. Click OK. Then go to **Code Generation** and change **Runtime Library** to **Multi-threaded (/MT).**
 
 ![Record_2024-06-10-22-43-58](https://github.com/Arination/AES-Secure-Socket/assets/87356283/526598b9-761c-47d8-85c1-6d953979cc35)
@@ -89,6 +107,8 @@ Note :- **Visual Studio** is used for the development of this application, so ma
 
 14. Once all this is done Click Apply and Ok.
 15. Woah! Everything will be resolved. Save the file and run it by clicking **Local Windows Debugger** option.
+
+![Record_2024-06-10-22-46-24](https://github.com/Arination/AES-Secure-Socket/assets/87356283/c20cd4ee-9aac-4358-a51e-6461f7363f79)
 
  (hope you followed the steps correctly :)).
 

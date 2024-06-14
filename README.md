@@ -68,7 +68,7 @@ DISCLAIMER: There are visuals included in the Readme to show the steps to follow
 
 ![VID_20240610225057](https://github.com/Arination/AES-Secure-Socket/assets/87356283/d814febd-746d-4c3a-8778-fe5d216a4164)
 
-3. Get the code from the CryptoPP site (link is below) or from the CPP file in this repository. ([Cryptopp.cpp](https://github.com/Arination/AES-Secure-Socket/blob/main/Cryptopp.cpp)).
+3. Get the code from the [Crypto++ site](https://www.cryptopp.com/wiki/Advanced_Encryption_Standard) or from the CPP file in this repository. ([Cryptopp.cpp](https://github.com/Arination/AES-Secure-Socket/blob/main/Cryptopp.cpp)).
 
 ![VID_20240610225232 (2)](https://github.com/Arination/AES-Secure-Socket/assets/87356283/ec82302b-8b72-41c0-99e5-1a2ca9db8c6c)
 
@@ -113,7 +113,6 @@ DISCLAIMER: There are visuals included in the Readme to show the steps to follow
 
  (hope you followed the steps correctly :)).
 
-[AES Code](https://www.cryptopp.com/wiki/Advanced_Encryption_Standard)
 
 ## Now Let's Dive into SECURE SOCKET implementation.
 

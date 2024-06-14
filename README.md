@@ -32,7 +32,7 @@ Note :- **Visual Studio** is used for the development of this application, so ma
 
 DISCLAIMER: There are visuals included in the Readme to show the steps to follow. They might take sometime to load depending on your connectivity!
 
-1. Clone the [Crypto++ Repo.](https://github.com/weidai11/cryptopp) or just search Cyptoo++ github.(you can also download it by searching it on Crypto++ site, I preferred cloning it.)
+1. Clone the [Crypto++ Repo.](https://github.com/weidai11/cryptopp) or just search Cyptoo++ github. (you can also download it by searching it on Crypto++ site, I preferred cloning it.)
 2. Also download (clone) the [Cryptopp PEM.](https://github.com/noloader/cryptopp-pem) pack.
 
    Make sure to note the location of the cloned repositories or downloads.
